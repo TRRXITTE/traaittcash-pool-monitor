@@ -23,7 +23,7 @@ const Logger = {
 }
 
 const service = new Collector({
-  poolList: process.env.POOL_LIST_URL || 'https://raw.githubusercontent.com/turtlecoin/turtlecoin-pools-json/master/v2/turtlecoin-pools.json',
+  poolList: process.env.POOL_LIST_URL || 'https://raw.githubusercontent.com/TRRXITTE/traaittCASH-pools/main/traaittcash-pools.json',
   pollingInterval: process.env.POLLING_INTERVAL || 15,
   updateInterval: process.env.UPDATE_INTERVAL || (60 * 60),
   historyDays: process.env.HISTORY_DAYS || 0.25,

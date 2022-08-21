@@ -1,4 +1,4 @@
-[![NPM](https://nodei.co/npm/turtlecoin-pool-monitor.png?downloads=true&stars=true)](https://nodei.co/npm/turtlecoin-pool-monitor/)
+[![NPM](https://nodei.co/npm/@trrxitte/traaittcash-pool-monitor.png?downloads=true&stars=true)](https://nodei.co/npm/@trrxitte/traaittcash-pool-monitor/)
 
 <h1 align="center"></h1>
 <p>
@@ -30,13 +30,13 @@
 ### Collection Service
 
 ```sh
-npm install -g turtlecoin-pool-monitor
+npm install -g traaittcash-pool-monitor
 export MYSQL_HOST=<server ip>
 export MYSQL_PORT=<server port>
 export MYSQL_USERNAME=<server username>
 export MYSQL_PASSWORD=<server password>
 export MYSQL_DATABASE=<database>
-turtlecoin-pool-monitor
+traaittcash-pool-monitor
 ```
 
 #### Additional Options
@@ -53,20 +53,20 @@ export POOL_LIST_URL=<Full URL to pool list (default: turtlecoin-pools-json)>
 ### As a Module for Pulling Stats
 
 ```sh
-npm install --save turtlecoin-pool-monitor
+npm install --save traaittcash-pool-monitor
 ```
 
 #### Sample Code
 
 ```javascript
-const StatsDatabase = require('turtlecoin-pool-monitor')
+const StatsDatabase = require('traaittcash-pool-monitor')
 
 const db = new StatsDatabase({
   host: 'localhost',
   port: 3306,
   username: 'root',
   password: 'password',
-  database: 'turtlecoin',
+  database: 'traaittcash',
   connectionLimit: 10
 })
 
@@ -112,12 +112,12 @@ CREATE TABLE `pool_polling` (
 
 ## Author
 
-**The TurtleCoin Developers**
+**TRRXITTE Int., incorporate**
 
-* Twitter: [@turtlecoin](https://twitter.com/_turtlecoin )
-* Github: [@turtlecoin](https://github.com/turtlecoin)
+* Twitter: [@TRRXITTE](https://twitter.com/TRRXITTE )
+* Github: [@TRRXITTE](https://github.com/TRRXITTE)
 
 ## License
-
+Copyright © 2022 [TRRXITTE Int., incorporate](https://github.com/trrxitte).<br />
 Copyright © 2019 [The TurtleCoin Developers](https://github.com/turtlecoin).<br />
 This project is [AGPL-3.0](https://github.com/turtlecoin/cryptodira/blob/master/LICENSE) licensed.
